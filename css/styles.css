@@ -1,34 +1,37 @@
 body {
-  background-image: url("../images/Navimg.png");
-  background-size: 100%;
+  /* background-image: url("../images/Navimg.png"); */
+  background-image: url(../images/fundocolor.png);
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+nav{
+  display: flex;
+  /* background-image: url(../images/Navimg2.png); */
+  justify-content: end;
+  padding: 2%;
 }
 
 nav ul {
   display: flex;
-  align-items: center;
-  justify-content: end;
   list-style: none;
-  font-size: x-large;
-  /* font-weight: 700; */
-  margin: 30px;
-
-
 }
 
 nav ul li a {
   font-family: shantell;
-  font-size: xx-large;
+  font-size: 2rem;
   text-decoration: none;
   color: black;
   padding: 50px;
 }
 
+/* ============================================== */
+
 h1 {
   font-family: Henny_Penny;
   display: flex;
   justify-content: center;
-  margin-top: 4.5%;
+  margin-top: 1%;
 }
 
 .intro {
