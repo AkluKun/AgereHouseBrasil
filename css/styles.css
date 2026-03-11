@@ -1,8 +1,15 @@
 body {
   /* background-image: url("../images/Navimg.png"); */
-  background-image: url(../images/fundocolor.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background:  url("../images/fundocolor.png") no-repeat fixed;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 nav{
@@ -14,14 +21,11 @@ nav{
 
 nav ul {
   display: flex;
-  list-style: none;
 }
 
 nav ul li a {
   font-family: shantell;
   font-size: 2rem;
-  text-decoration: none;
-  color: black;
   padding: 50px;
 }
 
@@ -36,8 +40,8 @@ h1 {
 
 .intro {
   font-family: Shantell;
-  font-size: 1.2rem;
-  font-weight: bolder;
+  font-size: 1.3rem;
+  /* font-weight: bolder; */
   letter-spacing: 1px;
   word-spacing: 5px;
   padding: 15px;
@@ -69,7 +73,7 @@ h1 {
 
 
 /*  =============BASTIDORES============= */
-.container {
+/* .container {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -119,4 +123,43 @@ h1 {
 .lojinha {
   text-decoration: none;
   color: #02a38e;
+} */
+
+.info {
+  justify-content: center;
+  margin: 3%;
+  font-size: 1.3rem;
+  /* word-spacing: 2%; */
+  font-family: Shantell;
+}
+
+.container-sobre {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.container-sobre img {
+  width: 40%;
+  height: auto;
+  border: 2px solid #02b89f;
+  border-radius: 15%;
+  margin: 3%;
+  padding: 5px;
+  box-shadow: #00ffdd 0px 0px 10px;
+}
+.info-jake {
+  width: 50%;
+  height: auto;
+  padding: 20px;
+  font-size: 1.3rem;
+  font-family: shantell;
+}
+
+.info-jake span {
+  color: #05a38e;
+  font-weight: bold;
+}
+
+.info-jake li {
+  margin: 9px 0;
 }
