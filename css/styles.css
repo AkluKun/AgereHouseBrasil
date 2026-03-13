@@ -139,7 +139,7 @@ h1 {
   width: 100%;
 }
 .container-sobre img {
-  width: 28%;
+  width: 350px;
   height: auto;
   border: 2px solid #02b89f;
   border-radius: 15%;
@@ -176,5 +176,41 @@ h1 {
 .cont-historia{
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+}
+
+/* ==================CONTATO================================ */
+.info-contato{
+  display: flex;
+  margin: 0% auto;
+  flex-direction: column;
+  gap: 30px;
+  font-family: shantell;
+  font-size: 1.5rem;
+  /* margin: 3%; */
+  width: 60%;
+}
+
+.info-contato p {
+  text-align: flex-start;
+}
+
+.info-contato a {
+  color: #065f53;
+}
+
+.house{
+  margin: 2%;
+  align-self: center;
+  padding: 15px 20px;
+  font-size: 1.4rem;
+  font-family: shantell;
+  background-color: #3ff7de;
+  border: 2px dashed #02a38e;
+  border-radius: 15px;
+}
+
+.info-contato a:hover {
+  color: #02a892;
+  text-decoration: wavy underline;
+  transition: color 0.3s ease;
 }
