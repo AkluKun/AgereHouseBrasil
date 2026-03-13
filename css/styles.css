@@ -72,7 +72,7 @@ h1 {
 }
 
 
-/*  =============BASTIDORES============= */
+/*  =============SOBRE-NOS============= */
 /* .container {
   display: flex;
   gap: 20px;
@@ -162,4 +162,19 @@ h1 {
 
 .info-jake li {
   margin: 9px 0;
+}
+
+.historia{
+  margin: 2%;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  font-family: shantell;
+  background-color: #3ff7de;
+  border: 2px dashed #02a38e;
+  border-radius: 15px;
+}
+.cont-historia{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
 }
