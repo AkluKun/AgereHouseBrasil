@@ -29,13 +29,14 @@ nav ul li a {
   padding: 50px;
 }
 
-/* ============================================== */
+/* ==================AGERE============================ */
 
 h1 {
   font-family: Henny_Penny;
   display: flex;
   justify-content: center;
   margin-top: 1%;
+  letter-spacing: 1px;
 }
 
 .intro {
@@ -71,6 +72,14 @@ h1 {
   /* margin-left: 20px; */
 }
 
+/* =================PETRE========================= */
+.petre-info p{
+  font-family: shantell;
+  font-size: 1.3rem;
+  margin: 3%;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
 
 /*  =============SOBRE-NOS============= */
 /* .container {
