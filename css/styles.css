@@ -134,7 +134,7 @@ h1 {
   color: #02a38e;
 } */
 
-.info {
+.info-descricao {
   justify-content: center;
   margin: 3%;
   font-size: 1.3rem;
@@ -173,7 +173,7 @@ h1 {
   margin: 9px 0;
 }
 
-.historia{
+.btn-historia{
   margin: 2%;
   padding: 15px 20px;
   font-size: 1.2rem;
@@ -222,4 +222,38 @@ h1 {
   color: #02a892;
   text-decoration: wavy underline;
   transition: color 0.3s ease;
+}
+/* =====================HISTORIA============================ */
+.info-historia {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: shantell;
+  font-size: 1.3rem;
+  width: 80%;
+  margin: 0% auto;
+  margin-top: 2%;
+}
+.card-historia {
+  background: #fff;
+  border: 2px solid #00dfc3;
+  border-radius: 40px;
+  margin: 2% auto;
+  width: 36%;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.img-historia{
+  width: 100%;
+  height: auto;
+  border: 2px solid #02a38e;
+  box-shadow: #00ffdd 0px 0px 10px;
+  border-radius: 15px;
+}
+
+.texto-img {
+  margin-top: 10px;
+  font-size: 1.2rem;
 }
