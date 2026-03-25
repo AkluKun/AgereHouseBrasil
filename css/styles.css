@@ -227,13 +227,30 @@ h1 {
 .info-historia {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   font-family: shantell;
   font-size: 1.3rem;
   width: 80%;
   margin: 0% auto;
   margin-top: 2%;
 }
+
+.info-historia a{
+  color: #065f53;
+}
+
+.info-historia a:hover {
+  color: #02a892;
+  text-decoration: wavy underline;
+  transition: color 0.3s ease;
+}
+ 
+.info-historia span{
+  color: #fa62ff;
+  /* color: #05a38e; */
+  font-weight: bold;
+}
+
 .card-historia {
   background: #fff;
   border: 2px solid #00dfc3;
@@ -251,6 +268,10 @@ h1 {
   border: 2px solid #02a38e;
   box-shadow: #00ffdd 0px 0px 10px;
   border-radius: 15px;
+}
+
+.card-historia.card2{
+  width: 50%;
 }
 
 .texto-img {
